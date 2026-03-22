@@ -1,13 +1,9 @@
 🚀 Overview
 
-Global News 24 is a desktop news aggregation application built using
-Python and Tkinter. It fetches real-time headlines using NewsAPI and
-presents them in a clean, scrollable interface with support for
-bookmarking and persistent user state.
+Global News 24 is a desktop news aggregation application built using Python and Tkinter. It fetches real-time headlines using NewsAPI and presents them in a clean, 
+scrollable interface with support for bookmarking and persistent user state.
 
-This project focuses on combining API integration, GUI design,
-asynchronous operations, and state management into a cohesive desktop
-application.
+This project focuses on combining API integration, GUI design, asynchronous operations, and state management into a cohesive desktop application.
 
 ✨ Features 
 🗞️ News Browsing Fetch real-time headlines using NewsAPI
