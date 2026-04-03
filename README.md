@@ -62,7 +62,7 @@ This project focuses on combining API integration, GUI design, asynchronous oper
 3️⃣ Add your News API key\
   &emsp; In main.py:\
   &emsp; API_KEY = \"YOUR_API_KEY\"
-  (Get your API key from: https://newsapi.org/)\
+  (Get your API key from: https://newsapi.org/)  
 ▶️ Run the App
 python main.py
 
