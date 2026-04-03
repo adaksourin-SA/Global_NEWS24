@@ -1,7 +1,7 @@
 import tkinter as tk
 from api import init_api
 from ui import setup_ui, start_load_news
-from APIkey import API_KEY #Change accordingly
+from APIkey import API_KEY # Change accordingly
 
 root = tk.Tk()  
 

@@ -1,6 +1,0 @@
-tkiniter
-newsapi
-pillow
-urllib
-webbrowser
-threading

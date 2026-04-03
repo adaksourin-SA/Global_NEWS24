@@ -6,6 +6,8 @@ bookmarking and persistent user state.
 
 This project focuses on combining API integration, GUI design, asynchronous operations, and state management into a cohesive desktop application.
 
+---
+ 
 ## ✨ Features
 🗞️ **News Browsing Fetch real-time headlines using NewsAPI**
 - Browse categorized news: General, Business, Health, Sports, Science, Technology
@@ -33,10 +35,15 @@ This project focuses on combining API integration, GUI design, asynchronous oper
 🌐 **Article Access**  
 - Open full articles in browser with one click 
 
+---
+ 
 ## 📊 UI/UX Enhancements
 - Dynamic content rendering (no hardcoded layouts)
 - Loading indicator (progress bar)
 - Structured layout with responsive components 
+
+---
+ 
 ## 🧠 Technical Highlights
 - Modular Architecture
 
@@ -52,20 +59,38 @@ This project focuses on combining API integration, GUI design, asynchronous oper
     Bookmark persistence using JSON  
     UI synchronized with stored state
 - Custom Scroll System\
-    Canvas + Frame + Scrollbar pattern for dynamic content 
-    
-## ⚙️ Installation 
-1️⃣ Clone the repository  
-  &emsp; git clone https://github.com/adaksourin-SA/Global_NEWS24 cd news-app  
-2️⃣ Install dependencies 
-  pip install -r requirements.txt  
-3️⃣ Add your News API key\
-  &emsp; In main.py:\
-  &emsp; API_KEY = \"YOUR_API_KEY\"
-  (Get your API key from: https://newsapi.org/)  
-▶️ Run the App
-python main.py
+    Canvas + Frame + Scrollbar pattern for dynamic content
 
+---
+ 
+## 🖥️ Application Preview
+
+![Alt](Screenshots/Main_win.jpg)
+![Alt](Screenshots/Bookmark_Win.jpg)
+
+---
+     
+## ⚙️ Installation 
+1️⃣ Clone the repository:
+
+`git clone https://github.com/adaksourin-SA/Global_NEWS24 cd news-app`
+
+2️⃣ Install dependencies:
+
+`pip install -r requirements.txt`
+
+3️⃣ Add your News API key:
+
+  In main.py:\
+  `API_KEY = "YOUR_API_KEY"`
+  (Get your API key from: https://newsapi.org/)
+
+▶️ Run the App
+
+`python main.py`
+
+---
+ 
 ## 🔮 Future Improvements
 - 📊 News analytics (most frequent topics) 
 - 🧠 Sentiment analysis of articles
@@ -73,11 +98,9 @@ python main.py
 - 🌍 Country-based news filtering
 - 💾 SQLite integration instead of JSON
 
+---
+ 
 ## 🤝 Contributing
 Feel free to fork this repo and submit pull requests. Suggestions and
 improvements are welcome!
 
-
-
-## 📜 License
-This project is open-source and available under the MIT License.

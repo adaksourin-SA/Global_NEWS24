@@ -22,7 +22,7 @@ def setup_ui(root):
     root.geometry("750x622+300+100")
     root.resizable(False, False)
     myicon = ImageTk.PhotoImage(
-    file="tkinter_GUI\My_Projects\\newspaper\\Global_NEWS24\\Icons\\news_logo.png")
+    file="Icons\\news_icon.png")
     root.iconphoto(False, myicon)
 
     # ===== MENU =====
@@ -52,7 +52,7 @@ def setup_ui(root):
     icon_can.pack(side="left",padx=(220,5))
 
     icon_can.image = ImageTk.PhotoImage(
-    file="tkinter_GUI\My_Projects\\newspaper\\Global_NEWS24\\Icons\\news_logo2.png")
+    file="Icons\\news_icon3.png")
     icon_can.create_image((32,32), image=icon_can.image)
 
     tk.Label(title_frame, text="Global-NEWS 24",
